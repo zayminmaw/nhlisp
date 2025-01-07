@@ -64,6 +64,7 @@ int main(int argc, char** argv)
         }
 
        free(input);
+       
     }
 
     mpc_cleanup(4, Number, Operator, Expr, Nhlisp);
